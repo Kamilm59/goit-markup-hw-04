@@ -15,7 +15,7 @@
     letter-spacing: 0.32px;: 500;
     color: var(--navyblue, #2E2F42);
   }
-a.nav-button:hover, a.nav-button:active, a.nav-button:focus {
+  a.nav-button:hover, a.nav-button:active, a.nav-button:focus {
     color: #404BBF;
   }
   .contact {
