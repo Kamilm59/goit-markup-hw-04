@@ -52,10 +52,24 @@ a.contact:hover, a.contact:active, a.contact:focus {
     color:#FFF;
   }
 .main-title-background {
-    background-color: #2E2F42
+    background-color: #2E2F42;
+    height: 600px;
   }
 .team {
   background-color: #F4F4FD;
+}
+.section, .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section1 {
+  padding-top: 120px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1158px;
+
 }
 .title {
     font-size: 16px;
@@ -84,6 +98,7 @@ a.contact:hover, a.contact:active, a.contact:focus {
   }
 .footer {
     background-color: #2E2F42;
+    height: 312px;
 }
 .button-blue {
     display: flex;
