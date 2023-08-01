@@ -21,18 +21,9 @@
   text-decoration: none;
   margin-left: 156px;
 }
-.list {
-  list-style-type: none;
-  display: inline-flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 24px;
-}
 .list-nav {
   list-style-type: none;
   display: inline-flex;
-  justify-content: center;
-  align-items: flex-start;
   gap: 40px;
 }
 .nav-button {
@@ -50,12 +41,6 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
     color: #404BBF;
 }
 .contact {
-    font-size: 16px;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-    font-style: normal;
-    color: #434455;
-    text-decoration: none;
     display: inline-flex;
     align-items: flex-end;
     gap: 40px;
@@ -90,6 +75,11 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   align-items: center;
   width: 1158px;
 }
+.list {
+  list-style-type: none;
+  display: inline-flex;
+  gap: 24px;
+}
 .header-container {
   border-bottom: 1px solid #E7E9FC;
   height: 72px;
@@ -119,12 +109,13 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   width: 264px;
   background-color: #FFF;
   border-right: 1px solid #E7E9FC;
   border-bottom: 1px solid #E7E9FC;
   border-left: 1px solid #E7E9FC;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .section, .team {
   padding-top: 120px;
@@ -140,17 +131,23 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
     color: #FFF;
     display: none;
   }
-.title-3 {
+.title-3, .title-4 {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
   }
-.subtitle-3 {
+  .title-4 {
+    line-height: 4px; /* 120% */
+  }
+.subtitle-3, .subtitle-4 {
     font-size: 16px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     color: #434455
+  }
+  .subtitle-4 {
+    line-height: 4px; /* 150% */
   }
 .subtitle-2 {
     font-family: Roboto;
