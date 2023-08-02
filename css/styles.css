@@ -90,13 +90,13 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   height: 600px;
   text-align: center;
 }
-.container, .header-container, .team-photos {
+.container, .header, .team-photos {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 1416px;
 }
-.header-container {
+.header {
   border-bottom: 1px solid var(--color-border);
   height: 72px;
   width: 1440px;
@@ -224,7 +224,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   flex-wrap: wrap;
   row-gap: 48px;
 }
-.list-2 {
+.list-1 {
   list-style-type: none;
   display: inline-flex;
   justify-content: center;
