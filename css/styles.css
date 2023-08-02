@@ -41,24 +41,18 @@ ol {
 a {
   text-decoration: none;
 }
-.container, .header, .team-photos {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 1416px;
+.container, .header-container {
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-.header {
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 1px solid var(--color-border);
   width: 1440px;
   height: 72px;
-}
-.team-photos {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1158px;
 }
 .section, .team {
   padding-top: 120px;
@@ -87,8 +81,6 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--color-logo);
-  text-decoration: none;
-  margin-left: 156px;
   margin-right: 76px;
 }
 .logo-footer {
@@ -99,11 +91,10 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--color-logo-footer);
-  text-decoration: none;
   margin-left: 156px;
 }
 .list-nav {
-  display: inline-flex;
+  display: flex;
   gap: 40px;
 }
 .nav-button {
@@ -124,8 +115,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   display: inline-flex;
   align-items: flex-end;
   gap: 40px;
-  margin-left: auto;
-  margin-right: 156px;
+  margin-left: 312px;
 }
 .contact-text {
   font-size: 16px;
@@ -140,14 +130,15 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   color:var(--color-main-title);
-  padding-top: 8%;
   width: 496px;
-  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .main-title-background {
   background-color: var(--background);
   height: 600px;
   text-align: center;
+  padding: 188px;
 }
 .team {
   background-color: var(--background-1);
@@ -227,7 +218,6 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 .button-order {
   display: inline-flex;
   padding: 16px 32px;
-  margin-top: 168px;
   gap: 10px;
   border-radius: 4px;
   background: var(--color-button-order);
@@ -245,14 +235,14 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   background-color: var(--color-button-hover);
 }
 .list {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
 }
 .list-1 {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   column-gap: 24px;
 }
