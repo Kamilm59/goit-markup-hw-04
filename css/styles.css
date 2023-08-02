@@ -41,7 +41,7 @@ ol {
 a {
   text-decoration: none;
 }
-.container, .header-container {
+.container, .header-container, .footer-container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -91,7 +91,6 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--color-logo-footer);
-  margin-left: 156px;
 }
 .list-nav {
   display: flex;
@@ -255,7 +254,6 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   color: var(--color-logo-footer);
-  margin-left: 156px;
   width: 264px;
   height: 72px;
 }
