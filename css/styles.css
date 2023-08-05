@@ -146,11 +146,13 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   height: 600px;
   text-align: center;
   padding: 188px 0;
+  min-width: 1158px;
 }
 .team {
   background-color: var(--background-1);
   padding-top: 120px;
   padding-bottom: 120px;
+  min-width: 1158px;
 }
 .employer-name {
   text-align: center;
@@ -255,6 +257,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 .footer {
   background-color: var(--background);
   padding: 100px 0;
+  min-width: 1158px;
 }
 .footer-text {
   font-size: 16px;
