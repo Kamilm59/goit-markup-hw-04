@@ -1,5 +1,6 @@
 :root {
   --color-logo: #2E2F42;
+  --color-logo-blue: #4D5AE5;
   --color-logo-footer: #F4F4FD;
   --color-nav-button: #2E2F42;
   --color-contact-text: #434455;
@@ -41,25 +42,33 @@ ol {
 a {
   text-decoration: none;
 }
-.container, .header-container, .footer-container {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+ {
+  margin: 0;
+}
+.container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 .header-container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-bottom: 1px solid var(--color-border);
-  width: 1440px;
   height: 72px;
 }
-.section, .team {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .section-1 {
   padding-top: 120px;
+  padding-bottom: 0px;
 }
 .visually-hidden {
   position:absolute;
@@ -111,10 +120,9 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   color: var(--color-button-hover);
 }
 .contact {
-  display: inline-flex;
-  align-items: flex-end;
+  display: flex;
   gap: 40px;
-  margin-left: 312px;
+  margin-left: auto;
 }
 .contact-text {
   font-size: 16px;
@@ -137,41 +145,40 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   background-color: var(--background);
   height: 600px;
   text-align: center;
-  padding: 188px;
+  padding: 188px 0;
 }
 .team {
   background-color: var(--background-1);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .employer-name {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 264px;
+  text-align: center;
   background-color: var(--background-2);
   border-right: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   border-left: 1px solid var(--color-border);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .title-3, .title-4 {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
-}
-.title-4 {
-  line-height: 4px; /* 120% */
+  margin-bottom: 8px;
+  padding-top: 32px;
 }
 .subtitle-3, .subtitle-4 {
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  color: var(--color-text-1)
+  color: var(--color-text-1);
+  padding-bottom: 32px;
 }
-.subtitle-4 {
-  line-height: 4px; /* 150% */
+.title-4 {
+  margin-bottom: 16px;
+}
+.title-4, .subtitle-4 {
+  margin-left: 16px;
 }
 .subtitle-2 {
   font-family: var(--main-font);
@@ -181,6 +188,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 .button-blue {
   padding: 12px 24px;
@@ -242,12 +250,11 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 }
 .list-1 {
   display: flex;
-  justify-content: center;
   column-gap: 24px;
 }
-.footer-container {
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+.footer {
+  background-color: var(--background);
+  padding: 100px 0;
 }
 .footer-text {
   font-size: 16px;
@@ -256,8 +263,5 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   color: var(--color-logo-footer);
   width: 264px;
   height: 72px;
-}
-.footer {
-  background-color: var(--background);
-  height: 312px;
+  margin-top: 16px;
 }
