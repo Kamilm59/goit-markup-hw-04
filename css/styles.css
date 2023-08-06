@@ -62,13 +62,20 @@ p
   align-items: center;
   height: 72px;
 }
+.header {
+  border-bottom: 1px solid var(--color-border);
+}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.section-1 {
+.section-features {
   padding-top: 120px;
   padding-bottom: 0px;
+}
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position:absolute;
@@ -101,7 +108,7 @@ p
   text-transform: uppercase;
   color: var(--color-logo-footer);
 }
-.list-nav {
+.nav-list {
   display: flex;
   gap: 40px;
 }
@@ -148,50 +155,6 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   padding: 188px 0;
   min-width: 1158px;
 }
-.team {
-  background-color: var(--background-1);
-  padding-top: 120px;
-  padding-bottom: 120px;
-  min-width: 1158px;
-}
-.employer-name {
-  text-align: center;
-  background-color: var(--background-2);
-  border-right: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-  border-left: 1px solid var(--color-border);
-}
-.title-3, .title-4 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
-  margin-bottom: 8px;
-  padding-top: 32px;
-}
-.subtitle-3, .subtitle-4 {
-  font-size: 16px;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-  color: var(--color-text-1);
-  padding-bottom: 32px;
-}
-.title-4 {
-  margin-bottom: 16px;
-}
-.title-4, .subtitle-4 {
-  margin-left: 16px;
-}
-.subtitle-2 {
-  font-family: var(--main-font);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 72px;
-}
 .button-blue {
   padding: 12px 24px;
   border-radius: 4px;
@@ -211,7 +174,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--color-border);
-  background: var(--color-button);
+  background-color: var(--color-button);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -223,13 +186,14 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 }
 .button:hover, .button:active, .button:focus {
   background-color: var(--color-button-hover);
+  color: var(--color-button-order-text);
 }
 .button-order {
   display: inline-flex;
   padding: 16px 32px;
   gap: 10px;
   border-radius: 4px;
-  background: var(--color-button-order);
+  background-color: var(--color-button-order);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -250,9 +214,67 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   flex-wrap: wrap;
   row-gap: 48px;
 }
-.list-1 {
+.button-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  margin-bottom: 72px;
+}
+.card-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+.features-list {
   display: flex;
   column-gap: 24px;
+}
+.card-border {
+  border-left: 1px solid var(--color-border); 
+  border-bottom: 1px solid var(--color-border); 
+  border-right: 1px solid var(--color-border);
+  padding: 32px 16px;
+}
+.team {
+  background-color: var(--background-1);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  min-width: 1158px;
+}
+.employer-name {
+  text-align: center;
+  background-color: var(--background-2);
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+  padding: 32px 0;
+}
+.features-title, .card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+}
+.features-text, .card-text {
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--color-text-1);
+}
+.title-2 {
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
 }
 .footer {
   background-color: var(--background);
