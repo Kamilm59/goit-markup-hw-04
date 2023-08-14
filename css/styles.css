@@ -263,6 +263,13 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   border-left: 1px solid var(--color-border);
   padding: 32px 0;
 }
+.features-icons {
+  text-align: center;
+  background-color: var(--background-1);
+  padding: 24px 0;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
 .features-title, .card-title, .employer-title {
   font-size: 20px;
   font-weight: 500;
