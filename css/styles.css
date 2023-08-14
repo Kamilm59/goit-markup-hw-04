@@ -5,6 +5,7 @@
   --color-nav-button: #2E2F42;
   --color-contact-text: #434455;
   --color-border: #E7E9FC;
+  --color-border-2: #8E8F99;
   --color-text: #2E2F42;
   --color-text-1: #434455;
   --background: #2E2F42;
@@ -214,6 +215,29 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   flex-wrap: wrap;
   row-gap: 48px;
 }
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  margin-top: 8px;
+}
+.social-media-list-2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  margin-top: 16px;
+}
+.social-media-text {
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  color: var(--color-logo-footer);
+  font-weight: 500;
+}
 .title-2 {
   font-family: var(--main-font);
   font-size: 36px;
@@ -270,6 +294,13 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   margin-bottom: 8px;
   border-radius: 4px;
 }
+.client-icons {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border-2);
+}
 .features-title, .card-title, .employer-title {
   font-size: 20px;
   font-weight: 500;
@@ -296,4 +327,5 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   width: 264px;
   height: 72px;
   margin-top: 16px;
+  margin-right: 120px;
 }
