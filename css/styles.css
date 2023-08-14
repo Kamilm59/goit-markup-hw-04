@@ -11,6 +11,8 @@
   --background: #2E2F42;
   --background-1: #F4F4FD;
   --background-2: #FFF;
+  --box-shadow: rgba(46, 47, 66, 0.08) ;
+  --box-shadow-2: rgba(46, 47, 66, 0.16);
   --color-main-title: #FFF;
   --color-button-order: #4D5AE5;
   --color-button: #F4F4FD;
@@ -187,6 +189,8 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 }
 .button:hover, .button:active, .button:focus {
   background-color: var(--color-button-hover);
+  box-shadow: 0px 2px 2px 0px var(--color-button-shadow), 0px 2px 1px 0px var(--color-button-shadow-1), 0px 3px 1px 0px var(--color-button-shadow-2);
+  border: 1px solid var(--color-button-hover);
   color: var(--color-button-order-text);
 }
 .button-order {
@@ -263,6 +267,9 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   flex-wrap: wrap;
   row-gap: 48px;
 }
+.card-list-shadow:hover {
+  box-shadow: 0px 2px 1px 0px var(--box-shadow), 0px 1px 1px 0px var(--box-shadow-2), 0px 1px 6px 0px var(--box-shadow);
+}
 .features-list {
   display: flex;
   column-gap: 24px;
@@ -279,6 +286,9 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   padding-bottom: 120px;
   min-width: 1158px;
 }
+.team-box {
+  box-shadow: 0px 2px 1px 0px var(--box-shadow), 0px 1px 1px 0px var(--box-shadow-2), 0px 1px 6px 0px var(--box-shadow);
+ }
 .employer-name {
   text-align: center;
   background-color: var(--background-2);
@@ -293,6 +303,10 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   padding: 24px 0;
   margin-bottom: 8px;
   border-radius: 4px;
+}
+.social-media-svg {
+  width: 40px;
+  height: 40px;
 }
 .client-icons {
   display: flex;
@@ -318,6 +332,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
   background-color: var(--background);
   padding: 100px 0;
   min-width: 1158px;
+  height: 312px;
 }
 .footer-text {
   font-size: 16px;
