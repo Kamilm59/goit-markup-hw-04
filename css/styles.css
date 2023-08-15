@@ -26,6 +26,7 @@
   --primary-brand: #4D5AE5;
   --link-active: #404bbf;
   --success: #31d0aa;
+  --main-background: rgba(46, 47, 66, 0.7);
   --white: #fff;
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
@@ -157,7 +158,7 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 }
 .main-title-background {
   background-color: var(--background);
-  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-1.png');
+  background-image: linear-gradient(to bottom, var(--main-background), var(--main-background)), url('../images/people-office-1.png');
   background-size: cover;
   background-repeat: no-repeat; 
   text-align: center;
