@@ -85,7 +85,7 @@ p
   padding-bottom: 120px;
 }
 .visually-hidden {
-  position:absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -157,10 +157,13 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 }
 .main-title-background {
   background-color: var(--background);
-  height: 600px;
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-1.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
   text-align: center;
   padding: 188px 0;
-  min-width: 1158px;
+  
+  height: 600px;
 }
 .button-blue {
   padding: 12px 24px;
@@ -266,9 +269,9 @@ a.contact-text:hover, a.contact-text:active, a.contact-text:focus {
 
 }
 .customer-icon:hover {
-border-color: var(--link-active);
-fill: var(--link-active);
-cursor: pointer;
+  border-color: var(--link-active);
+  fill: var(--link-active);
+  cursor: pointer;
 }
 .title-2 {
   font-family: var(--main-font);
@@ -339,7 +342,7 @@ cursor: pointer;
   flex-shrink: 0;
   border: 1px solid #8E8F99;
   border-radius: 4px;
-  padding:16px 32px;
+  padding: 16px 32px;
 }
 .customer-icon:hover {
 border-color: var(--link-active);
